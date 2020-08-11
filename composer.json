@@ -1,0 +1,21 @@
+{
+    "name": "farle/digitalcep",
+    "description": "Busca de Cep online",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "farleyfernando",
+        "email": "farleyfernando@hotmail.com"
+    }],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "search": "src/"
+        },
+        "psr-4": {
+            "Wead\\DigitalCep\\": "src/"
+        }
+    }
+}
